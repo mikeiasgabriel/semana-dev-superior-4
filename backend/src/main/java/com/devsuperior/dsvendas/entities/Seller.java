@@ -23,7 +23,6 @@ public class Seller {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Column
 	private String name;
 	
 	@OneToMany(mappedBy = "seller")

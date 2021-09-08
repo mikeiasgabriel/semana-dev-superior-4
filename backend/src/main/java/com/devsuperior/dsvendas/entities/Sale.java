@@ -24,13 +24,9 @@ public class Sale {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Column
 	private Integer visited;
-	@Column
 	private Integer deals;
-	@Column
 	private Double amount;
-	@Column
 	private LocalDate date;
 	
 	@ManyToOne
