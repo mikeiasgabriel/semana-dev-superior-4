@@ -12,16 +12,12 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.With;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-@With
 @Entity
 @Table(name = "tb_sales")
 public class Sale {
