@@ -9,9 +9,9 @@ function Pagination({ page, onPageChange }: Props) {
   
   
   return (
-    <div className="row d-flex justify-content-center">
+    <div className="row">
       <nav>
-        <ul className="pagination">
+        <ul className="pagination d-flex justify-content-center">
           <li className={`page-item ${ page.first ? 'disabled' : '' }`}>
             <button className="page-link" onClick={() => onPageChange(page.number - 1)}>Anterior</button>
           </li>
